@@ -1,0 +1,14 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "Creation of reusable class Sorter using a bubble sort",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build",
+    "start": "concurrently yarn:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
